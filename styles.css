@@ -1,8 +1,8 @@
 :root {
-  --clr-bg: #669955;
-  --clr-black: #333;
+  --clr-bg: #336644;
+  --clr-black: #333333;
   --clr-white: #AAA;
-  --clr-table: #996666;
+  --clr-table: #806030;
 
   --size-cell: 20px;
   --clr-board-border: var(--clr-black);
@@ -18,10 +18,18 @@
 
 body {
   background: var(--clr-bg);
+  display: grid;
+  place-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 2rem;
 }
 
 #board {
-
+  margin-top: 2rem;
   width: min-content;
   display: grid;
   border: 10px solid var(--clr-board-border);
